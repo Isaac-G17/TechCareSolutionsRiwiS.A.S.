@@ -43,11 +43,11 @@ WHERE wo.id_riwi_work_order IS NULL;
 
 
 INSERT INTO riwi_equipment (name_riwi_equipment, id_riwi_equipment_category)
-VALUES ('Epson L3250 (equipo de prueba)', 4);
+VALUES ('Lenovo portatil (equipo de prueba)', 4);
 
 
 DELETE FROM riwi_equipment
-WHERE name_riwi_equipment = 'Epson L3250 (equipo de prueba)';
+WHERE name_riwi_equipment = 'Lenovo portatil (equipo de prueba)';
 
 
 
