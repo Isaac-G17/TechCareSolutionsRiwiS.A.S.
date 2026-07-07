@@ -21,7 +21,7 @@ COMMIT;
 SELECT c.id_riwi_client, c.name_riwi_client, wo.riwi_work_order, wo.riwi_service_date
 FROM riwi_client c
 JOIN riwi_work_order wo ON wo.id_riwi_client = c.id_riwi_client
-WHERE c.client_name = 'Global Tech Corp';
+WHERE c.name_riwi_client = 'Global Tech Corp';
 
 
 -- actualizar 
